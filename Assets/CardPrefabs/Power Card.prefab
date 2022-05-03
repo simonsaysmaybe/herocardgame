@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5583884602528091479}
   - component: {fileID: 5583884602528091478}
   - component: {fileID: 1810071598}
+  - component: {fileID: 5464503827482534351}
   m_Layer: 0
   m_Name: Power Card
   m_TagString: Card
@@ -110,6 +111,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   liftZ: -0.25
+--- !u!114 &5464503827482534351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5583884602528091481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 580247ee0aaf7b04993e90b11feff379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  card: {fileID: 0}
+  cardName: {fileID: 5583884603017496274}
+  cardDescription: {fileID: 5583884602805612725}
+  cardEnergyCost: {fileID: 7291999702036270130}
+  artwork: {fileID: 5583884602826635343}
 --- !u!1 &5583884602805612727
 GameObject:
   m_ObjectHideFlags: 0
